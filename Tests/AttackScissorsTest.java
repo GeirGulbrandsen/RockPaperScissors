@@ -1,5 +1,5 @@
-package com.example.rockpaperscissors;
-
+import com.example.rockpaperscissors.Attack;
+import com.example.rockpaperscissors.AttackScissors;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

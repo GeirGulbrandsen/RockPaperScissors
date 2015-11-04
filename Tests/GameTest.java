@@ -1,5 +1,5 @@
-package com.example.rockpaperscissors;
-
+import com.example.rockpaperscissors.Game;
+import com.example.rockpaperscissors.Player;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

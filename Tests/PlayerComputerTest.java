@@ -1,5 +1,4 @@
-package com.example.rockpaperscissors;
-
+import com.example.rockpaperscissors.PlayerComputer;
 import org.junit.Test;
 
 import java.util.Arrays;
