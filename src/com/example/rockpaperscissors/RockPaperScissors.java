@@ -16,17 +16,17 @@ public class RockPaperScissors {
             game.play();
 
             System.out.println("Do you want to play again? (Y/N <enter>):");
-                switch (("" + sc.next(".").charAt(0)).toUpperCase()) {
-                    case "Y":
-                        break;
-                    case "N":
-                        wantToPlay = false;
-                        break;
-                    default:
-                        System.out.println("That was a Yes/No question. Please try again.");
-                        break;
-                }
+            switch (("" + sc.next(".").charAt(0)).toUpperCase()) {
+                case "Y":
+                    break;
+                case "N":
+                    wantToPlay = false;
+                    break;
+                default:
+                    System.out.println("That was a Yes/No question. Please try again.");
+                    break;
             }
+        }
         while (wantToPlay);
     }
 

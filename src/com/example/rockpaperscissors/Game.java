@@ -9,7 +9,7 @@ public class Game {
 
     private String[] weapons = {"Rock", "Paper", "Scissors"};
 
-    public void play() {
+    void play() {
         Scanner sc = new Scanner(System.in);
         Player player1 = null;
         Player player2;
@@ -39,12 +39,12 @@ public class Game {
                     System.out.println("That was a P/C question. Please try again.");
                     break;
             }
-        } while (player1==null);
+        } while (player1 == null);
 
-        System.out.println(this.evaluate(player1,player2));
+        System.out.println(this.evaluate(player1, player2));
     }
 
-    public String evaluate (Player player1, Player player2) {
+    public String evaluate(Player player1, Player player2) {
         String result;
 
         System.out.println(player1.getName() + " has " + player1.getAttack());

@@ -8,6 +8,6 @@ public class PlayerComputer extends Player {
     public PlayerComputer(String[] weapons) {
         super();
 
-        setAttack(weapons[(int)(Math.random()*weapons.length)]);
-        }
+        setAttack(weapons[(int) (Math.random() * weapons.length)]);
+    }
 }

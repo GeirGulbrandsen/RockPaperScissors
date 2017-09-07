@@ -12,7 +12,7 @@ public class Attack {
         return weapon;
     }
 
-    public void setWeapon(String weapon) {
+    void setWeapon(String weapon) {
         this.weapon = weapon;
     }
 
@@ -20,7 +20,7 @@ public class Attack {
         return winsOver;
     }
 
-    public void setWinsOver(String winsOver) {
+    void setWinsOver(String winsOver) {
         this.winsOver = winsOver;
     }
 

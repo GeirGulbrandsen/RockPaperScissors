@@ -5,9 +5,9 @@ import java.util.Scanner;
 /**
  * Created by Geir on 11/2/2015.
  */
-public class PlayerHuman extends Player {
+class PlayerHuman extends Player {
 
-    public PlayerHuman(String[] weapons) {
+    PlayerHuman(String[] weapons) {
         super();
 
         String weapon = null;
